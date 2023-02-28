@@ -35,7 +35,7 @@ a {
     font-weight: 500;
     font-size: 1.4rem;
     text-align: center;
-    color: #FFFFFF;
+    color: #ffffff;
 }
 
 .btn:hover {
@@ -45,12 +45,13 @@ a {
 .header {
     background: #e6f0ff;
     height: 100vh;
+    position: relative;
 }
 
 .navbar {
     display: flex;
     align-items: center;
-    padding-top: 50px;
+    padding-top: 38px;
 }
 
 .navbar ul {
@@ -63,7 +64,6 @@ a {
     font-size: 1.4rem;
     color: #4f5361;
     padding: 8px 14px;
-
 }
 
 .navbar ul a:hover {
@@ -82,5 +82,79 @@ a {
 
 .navbar .btn-action {
     padding: 13px 16px;
-    margin-left: 18px;
+    margin-left: 1.8rem;
+}
+
+.hero {
+    margin-top: 260px;
+    width: 51%;
+}
+
+.hero .sub-title {
+    font-weight: 500;
+    font-size: 1.8rem;
+    line-height: 27px;
+    letter-spacing: 0.01em;
+    color: #687690;
+}
+
+.hero .title {
+    margin-top: 8px;
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 76px;
+    color: #000336;
+}
+
+.hero .desc {
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 32px;
+    color: #5a6473;
+    margin-top: 30px;
+}
+
+.hero-cta {
+    min-width: 170px;
+    margin-top: 40px;
+}
+
+.hero-img {
+    position: absolute;
+    right: calc((100vw - 1110px) / 2 - 100px);
+    bottom: 0;
+}
+
+.clients {
+    margin-top: 122px;
+}
+
+.clients .row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.clients .desc {
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 1.25;
+    color: #7d8589;
+}
+
+.clients .row-desc {
+    margin-top: 23px;
+}
+
+.clients .images {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 96px;
+}
+
+.guides .sub-title {
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 1;
+    text-align: center;
+    color: #000339;
 }

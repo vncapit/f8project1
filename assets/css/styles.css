@@ -51,6 +51,14 @@ a {
     opacity: 0.85;
 }
 
+.fixed-header {
+    background: #e6f0ff;
+    padding-bottom: 20px;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+}
+
 /* Header */
 .header {
     background: #e6f0ff;
@@ -97,7 +105,7 @@ a {
 }
 
 .hero {
-    margin-top: 260px;
+    padding-top: 260px;
     width: 51%;
 }
 
